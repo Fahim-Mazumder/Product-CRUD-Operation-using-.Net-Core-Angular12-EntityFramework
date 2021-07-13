@@ -1,0 +1,32 @@
+<div class="header">
+    <span>Product Detail Register</span>
+</div>
+<mat-tab-group dynamicHeight animationDuration="0.3s" [selectedIndex]="active" (selectedTabChange)="tabClick($event)">
+    <mat-tab label="Entry Form">
+        <div class="example-small-box mat-elevation-z4">
+            <app-product-entry></app-product-entry>
+        </div>
+    </mat-tab>
+    <mat-tab label="Product List">
+        <div class="example-large-box mat-elevation-z4">
+            <table class="table">
+                <thead class="thead-light">
+                    <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let item of service.list">
+                        <td (click)="retrieveProduct(item)">{{item.productName}}</td>
+                        <td (click)="retrieveProduct(item)">{{item.price}}</td>
+                        <td>
+                            <i class="far fa-trash-alt fa-lg text-danger" (click)="onDeleteProduct(item.productID)"></i>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </mat-tab>
+</mat-tab-group>

@@ -1,0 +1,63 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.header{
+    font-size: 50px;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.form-group label{
+    color: rgb(8, 8, 8);
+}
+.form-group input{
+    font-weight: 500;
+}
+.form-group button{
+    width: 100%;
+    margin-top: 1ex;
+    color: rgb(8, 8, 8);
+    font-weight: bold;
+    background-color: lightseagreen;
+}
+.form-group input::placeholder{
+    color: #c0bdbd;
+    font-weight: 300;
+}
+
+table tbody tr:hover{
+    background-color: #227c88;
+    cursor: pointer;
+}
+input.invalid{
+    border-color: red;
+}
+
+.mat-tab-label{
+    font-weight: bold;
+    color: rgb(8, 8, 8);
+ }
+  
+  .example-small-box {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color:lightblue;
+    height: 400px;
+    width: 600px;
+  }
+  
+  .example-large-box {
+    align-items: center;
+    justify-content: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+    background-color:lightblue;
+    height: 400px;
+    width: 800px;
+    overflow-y: scroll;
+  }
