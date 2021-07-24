@@ -7336,11 +7336,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Angular Projects\\ProductAPI\\ProductAPI.csproj",
+      "projectUniqueName": "E:\\Github Cloned Projects\\Product-CRUD-Operation-using-.Net-Core-Angular12-EntityFramework\\ProductAPI\\ProductAPI.csproj",
       "projectName": "ProductAPI",
-      "projectPath": "E:\\Angular Projects\\ProductAPI\\ProductAPI.csproj",
+      "projectPath": "E:\\Github Cloned Projects\\Product-CRUD-Operation-using-.Net-Core-Angular12-EntityFramework\\ProductAPI\\ProductAPI.csproj",
       "packagesPath": "C:\\Users\\Imran\\.nuget\\packages\\",
-      "outputPath": "E:\\Angular Projects\\ProductAPI\\obj\\",
+      "outputPath": "E:\\Github Cloned Projects\\Product-CRUD-Operation-using-.Net-Core-Angular12-EntityFramework\\ProductAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Imran\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -7410,7 +7410,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

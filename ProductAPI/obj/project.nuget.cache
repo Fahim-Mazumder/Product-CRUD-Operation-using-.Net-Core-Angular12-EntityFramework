@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fAP9WPuY9mbH2uzHyv9Qu/fwnpNIrPAd0DFZbX9Yo9AuFbspumF+fH11HeVC3CF8FtIv2a+G+fOCl+YUsE2ugw==",
+  "dgSpecHash": "NNlmD2FsAwTyuN/3UunoE5Gg9pa1N8JOMG7uHdqKnSuZ0ScITjCqA4Qq+BFfdCC9YprQfcrKQI5uWYD51vhdjw==",
   "success": true,
-  "projectFilePath": "E:\\Angular Projects\\ProductAPI\\ProductAPI.csproj",
+  "projectFilePath": "E:\\Github Cloned Projects\\Product-CRUD-Operation-using-.Net-Core-Angular12-EntityFramework\\ProductAPI\\ProductAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Imran\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Imran\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
